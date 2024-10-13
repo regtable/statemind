@@ -1,1 +1,1212 @@
-State file for the statemind boot process
+{
+  "rooms": {
+    "coderoom": {
+      "meta": {
+          "description": "A room that makes shit code",
+          "created_by": "System"
+      },
+      "instructions": {
+        "description": "When we select tier t[n], we load its base_instruction. When we leave it, they unload.",
+        "core_development_principles": {
+          "action_schemas": "Prioritize the use of action schemas for structured development and API interactions.",
+          "code_quality": "Implement mechanisms for code reviews, testing, and documentation to ensure high-quality code."
+        },
+        "enhancements": {
+          "code_review_integration": "Implement a mechanism to evaluate generated code against best practices and coding standards.",
+          "testing_framework": "Integrate a built-in testing framework to generate and run unit tests for the created code.",
+          "snippet_library": "Maintain a repository of reusable code snippets and templates for common tasks.",
+          "parameterization_configuration": "Allow users to define configuration parameters to customize generated code behavior.",
+          "error_logging": "Implement a robust error logging system to capture issues during code generation or execution.",
+          "version_control": "Enable the agent to be aware of versioning in code and dependencies.",
+          "intelligent_suggestions": "Implement a suggestion engine that offers code improvements or optimizations based on context.",
+          "feedback_loop": "Create a mechanism for users to provide feedback on generated code to refine the agent's algorithms.",
+          "ci_cd_integration": "Allow the agent to integrate with Continuous Integration/Continuous Deployment (CI/CD) pipelines.",
+          "documentation_generation": "Automatically generate documentation for the created code, including function descriptions and usage examples."
+        }
+      },
+      "Default": {
+        "title": "Default Level",
+        "description": "Basic, straightforward instructions for standard development tasks.",
+        "T1": {
+          "title": "Default T1",
+          "base_instruction": {
+            "core_principles": [
+              "Adhere to standard coding conventions and best practices.",
+              "Write clean, readable code with appropriate comments.",
+              "Utilize basic action schemas for structured development."
+            ],
+            "state_management": [
+              "Maintain simple project state tracking using configuration files.",
+              "Provide a straightforward menu for project selection."
+            ],
+            "code_generation": [
+              "Implement basic code snippets and templates for common tasks.",
+              "Ensure code reliability through standard testing practices.",
+              "Generate documentation for code with simple descriptions."
+            ],
+            "creativity": [
+              "Follow established patterns and frameworks.",
+              "Implement features as per specifications without deviation."
+            ]
+          }
+        },
+        "T2": {
+          "title": "Default T2",
+          "base_instruction": {
+            "core_principles": [
+              "Adhere to standard coding conventions and best practices.",
+              "Write clean, readable code with appropriate comments.",
+              "Utilize basic action schemas for structured development.",
+              "Begin to incorporate minor coding optimizations."
+            ],
+            "state_management": [
+              "Maintain simple project state tracking using configuration files.",
+              "Provide a straightforward menu for project selection.",
+              "Introduce basic logging of state changes."
+            ],
+            "code_generation": [
+              "Implement basic code snippets and templates for common tasks.",
+              "Ensure code reliability through standard testing practices.",
+              "Generate documentation for code with simple descriptions.",
+              "Start using version control for code management."
+            ],
+            "creativity": [
+              "Follow established patterns and frameworks.",
+              "Implement features as per specifications without deviation.",
+              "Consider minor enhancements to improve usability."
+            ]
+          }
+        },
+        "T3": {
+          "title": "Default T3",
+          "base_instruction": {
+            "core_principles": [
+              "Adhere to standard coding conventions and best practices.",
+              "Write clean, readable code with appropriate comments.",
+              "Utilize basic action schemas for structured development.",
+              "Begin to incorporate minor coding optimizations.",
+              "Apply simple refactoring techniques to improve code structure."
+            ],
+            "state_management": [
+              "Maintain simple project state tracking using configuration files.",
+              "Provide a straightforward menu for project selection.",
+              "Introduce basic logging of state changes.",
+              "Implement error handling for state management."
+            ],
+            "code_generation": [
+              "Implement basic code snippets and templates for common tasks.",
+              "Ensure code reliability through standard testing practices.",
+              "Generate documentation for code with simple descriptions.",
+              "Start using version control for code management.",
+              "Use modular code organization for better maintainability."
+            ],
+            "creativity": [
+              "Follow established patterns and frameworks.",
+              "Implement features as per specifications without deviation.",
+              "Consider minor enhancements to improve usability.",
+              "Explore alternative solutions for simple problems."
+            ]
+          },
+          "instruction": {}
+        },
+        "T4": {
+          "title": "Default T4",
+          "base_instruction": {
+            "core_principles": [
+              "Adhere to standard coding conventions and best practices.",
+              "Write clean, readable code with appropriate comments.",
+              "Utilize basic action schemas for structured development.",
+              "Begin to incorporate minor coding optimizations.",
+              "Apply simple refactoring techniques to improve code structure.",
+              "Start to explore basic design patterns."
+            ],
+            "state_management": [
+              "Maintain simple project state tracking using configuration files.",
+              "Provide a straightforward menu for project selection.",
+              "Introduce basic logging of state changes.",
+              "Implement error handling for state management.",
+              "Add basic user preferences to state management."
+            ],
+            "code_generation": [
+              "Implement basic code snippets and templates for common tasks.",
+              "Ensure code reliability through standard testing practices.",
+              "Generate documentation for code with simple descriptions.",
+              "Start using version control for code management.",
+              "Use modular code organization for better maintainability.",
+              "Begin automating repetitive coding tasks."
+            ],
+            "creativity": [
+              "Follow established patterns and frameworks.",
+              "Implement features as per specifications without deviation.",
+              "Consider minor enhancements to improve usability.",
+              "Explore alternative solutions for simple problems.",
+              "Introduce simple customizations to standard features."
+            ]
+          },
+          "instruction": {}
+        }
+      },
+      "Medium": {
+        "title": "Medium Level",
+        "description": "Enhanced instructions introducing moderate complexity and creativity.",
+        "instructions": {},
+        "T1": {
+          "title": "Medium T1",
+          "base_instruction": {
+            "core_principles": [
+              "Incorporate advanced coding standards and practices.",
+              "Use action schemas more extensively for API interactions.",
+              "Begin exploring optimization techniques in code."
+            ],
+            "state_management": [
+              "Implement more detailed project state tracking with extended settings.",
+              "Enhance the menu system for better navigation and usability."
+            ],
+            "code_generation": [
+              "Utilize more complex code snippets and customize templates.",
+              "Integrate intermediate-level testing frameworks.",
+              "Generate comprehensive documentation with examples."
+            ],
+            "creativity": [
+              "Introduce slight deviations to improve efficiency.",
+              "Experiment with different algorithms for common problems."
+            ]
+          },
+          "instruction": {}
+        },
+        "T2": {
+          "title": "Medium T2",
+          "base_instruction": {
+            "core_principles": [
+              "Incorporate advanced coding standards and practices.",
+              "Use action schemas more extensively for API interactions.",
+              "Begin exploring optimization techniques in code.",
+              "Apply design patterns to solve recurring problems."
+            ],
+            "state_management": [
+              "Implement more detailed project state tracking with extended settings.",
+              "Enhance the menu system for better navigation and usability.",
+              "Introduce user authentication into state management."
+            ],
+            "code_generation": [
+              "Utilize more complex code snippets and customize templates.",
+              "Integrate intermediate-level testing frameworks.",
+              "Generate comprehensive documentation with examples.",
+              "Start using continuous integration tools."
+            ],
+            "creativity": [
+              "Introduce slight deviations to improve efficiency.",
+              "Experiment with different algorithms for common problems.",
+              "Customize existing frameworks to better suit project needs."
+            ]
+          },
+          "instruction": {}
+        },
+        "T3": {
+          "title": "Medium T3",
+          "base_instruction": {
+            "core_principles": [
+              "Incorporate advanced coding standards and practices.",
+              "Use action schemas more extensively for API interactions.",
+              "Begin exploring optimization techniques in code.",
+              "Apply design patterns to solve recurring problems.",
+              "Optimize code for better performance and scalability."
+            ],
+            "state_management": [
+              "Implement more detailed project state tracking with extended settings.",
+              "Enhance the menu system for better navigation and usability.",
+              "Introduce user authentication into state management.",
+              "Implement role-based access control."
+            ],
+            "code_generation": [
+              "Utilize more complex code snippets and customize templates.",
+              "Integrate intermediate-level testing frameworks.",
+              "Generate comprehensive documentation with examples.",
+              "Start using continuous integration tools.",
+              "Automate code quality checks and linting."
+            ],
+            "creativity": [
+              "Introduce slight deviations to improve efficiency.",
+              "Experiment with different algorithms for common problems.",
+              "Customize existing frameworks to better suit project needs.",
+              "Explore new libraries or tools to enhance functionality."
+            ]
+          },
+          "instruction": {}
+        },
+        "T4": {
+          "title": "Medium T4",
+          "base_instruction": {
+            "core_principles": [
+              "Incorporate advanced coding standards and practices.",
+              "Use action schemas more extensively for API interactions.",
+              "Begin exploring optimization techniques in code.",
+              "Apply design patterns to solve recurring problems.",
+              "Optimize code for better performance and scalability.",
+              "Implement asynchronous processing where appropriate."
+            ],
+            "state_management": [
+              "Implement more detailed project state tracking with extended settings.",
+              "Enhance the menu system for better navigation and usability.",
+              "Introduce user authentication into state management.",
+              "Implement role-based access control.",
+              "Add multi-language support to state management."
+            ],
+            "code_generation": [
+              "Utilize more complex code snippets and customize templates.",
+              "Integrate intermediate-level testing frameworks.",
+              "Generate comprehensive documentation with examples.",
+              "Start using continuous integration tools.",
+              "Automate code quality checks and linting.",
+              "Begin using code generation tools for repetitive tasks."
+            ],
+            "creativity": [
+              "Introduce slight deviations to improve efficiency.",
+              "Experiment with different algorithms for common problems.",
+              "Customize existing frameworks to better suit project needs.",
+              "Explore new libraries or tools to enhance functionality.",
+              "Implement innovative solutions to improve user experience."
+            ]
+          },
+          "instruction": {}
+        }
+      },
+      "High": {
+        "title": "High Level",
+        "description": "Advanced instructions pushing boundaries with high complexity and innovation.",
+        "instructions": {},
+        "T1": {
+          "title": "High T1",
+          "base_instruction": {
+            "core_principles": [
+              "Apply cutting-edge coding techniques and paradigms.",
+              "Fully integrate action schemas in all aspects of development.",
+              "Focus on performance optimization and scalability."
+            ],
+            "state_management": [
+              "Develop sophisticated state management systems.",
+              "Create dynamic menus that adapt to user behavior."
+            ],
+            "code_generation": [
+              "Generate high-level code with complex patterns.",
+              "Implement advanced testing, including integration and performance tests.",
+              "Produce detailed documentation with in-depth explanations."
+            ],
+            "creativity": [
+              "Innovate new solutions for complex problems.",
+              "Explore unconventional methods to enhance functionality."
+            ]
+          },
+          "instruction": {}
+        },
+        "T2": {
+          "title": "High T2",
+          "base_instruction": {
+            "core_principles": [
+              "Apply cutting-edge coding techniques and paradigms.",
+              "Fully integrate action schemas in all aspects of development.",
+              "Focus on performance optimization and scalability.",
+              "Utilize microservices architecture for modularity."
+            ],
+            "state_management": [
+              "Develop sophisticated state management systems.",
+              "Create dynamic menus that adapt to user behavior.",
+              "Implement real-time data synchronization across components."
+            ],
+            "code_generation": [
+              "Generate high-level code with complex patterns.",
+              "Implement advanced testing, including integration and performance tests.",
+              "Produce detailed documentation with in-depth explanations.",
+              "Use code generators to create boilerplate code efficiently."
+            ],
+            "creativity": [
+              "Innovate new solutions for complex problems.",
+              "Explore unconventional methods to enhance functionality.",
+              "Integrate AI algorithms to optimize processes."
+            ]
+          },
+          "instruction": {}
+        },
+        "T3": {
+          "title": "High T3",
+          "base_instruction": {
+            "core_principles": [
+              "Apply cutting-edge coding techniques and paradigms.",
+              "Fully integrate action schemas in all aspects of development.",
+              "Focus on performance optimization and scalability.",
+              "Utilize microservices architecture for modularity.",
+              "Implement machine learning for predictive features."
+            ],
+            "state_management": [
+              "Develop sophisticated state management systems.",
+              "Create dynamic menus that adapt to user behavior.",
+              "Implement real-time data synchronization across components.",
+              "Use distributed state management for scalability."
+            ],
+            "code_generation": [
+              "Generate high-level code with complex patterns.",
+              "Implement advanced testing, including integration and performance tests.",
+              "Produce detailed documentation with in-depth explanations.",
+              "Use code generators to create boilerplate code efficiently.",
+              "Automate deployment pipelines with continuous delivery."
+            ],
+            "creativity": [
+              "Innovate new solutions for complex problems.",
+              "Explore unconventional methods to enhance functionality.",
+              "Integrate AI algorithms to optimize processes.",
+              "Develop custom tools to improve development efficiency."
+            ]
+          },
+          "instruction": {}
+        },
+        "T4": {
+          "title": "High T4",
+          "base_instruction": {
+            "core_principles": [
+              "Apply cutting-edge coding techniques and paradigms.",
+              "Fully integrate action schemas in all aspects of development.",
+              "Focus on performance optimization and scalability.",
+              "Utilize microservices architecture for modularity.",
+              "Implement machine learning for predictive features.",
+              "Adopt event-driven architectures for responsiveness."
+            ],
+            "state_management": [
+              "Develop sophisticated state management systems.",
+              "Create dynamic menus that adapt to user behavior.",
+              "Implement real-time data synchronization across components.",
+              "Use distributed state management for scalability.",
+              "Incorporate blockchain for secure state tracking."
+            ],
+            "code_generation": [
+              "Generate high-level code with complex patterns.",
+              "Implement advanced testing, including integration and performance tests.",
+              "Produce detailed documentation with in-depth explanations.",
+              "Use code generators to create boilerplate code efficiently.",
+              "Automate deployment pipelines with continuous delivery.",
+              "Leverage AI for code optimization and error detection."
+            ],
+            "creativity": [
+              "Innovate new solutions for complex problems.",
+              "Explore unconventional methods to enhance functionality.",
+              "Integrate AI algorithms to optimize processes.",
+              "Develop custom tools to improve development efficiency.",
+              "Invent new frameworks to address unique challenges."
+            ]
+          },
+          "instruction": {}
+        }
+      },
+      "Insane": {
+        "title": "Insane Level",
+        "description": "Extreme instructions encouraging groundbreaking creativity and exploration.",
+        "instructions": {},
+        "T1": {
+          "title": "Insane T1",
+          "base_instruction": {
+            "core_principles": [
+              "Break conventional barriers with radical coding approaches.",
+              "Create custom action schemas for unique challenges.",
+              "Pursue perfection in code efficiency and elegance."
+            ],
+            "state_management": [
+              "Design self-evolving state management that learns over time.",
+              "Implement AI-driven menus predicting user needs."
+            ],
+            "code_generation": [
+              "Generate code that pushes the limits of current technology.",
+              "Use machine learning to optimize and refactor code automatically.",
+              "Develop self-documenting code that explains itself."
+            ],
+            "creativity": [
+              "Invent entirely new paradigms and frameworks.",
+              "Embrace chaos to discover unprecedented solutions."
+            ]
+          },
+          "instruction": {}
+        },
+        "T2": {
+          "title": "Insane T2",
+          "base_instruction": {
+            "core_principles": [
+              "Break conventional barriers with radical coding approaches.",
+              "Create custom action schemas for unique challenges.",
+              "Pursue perfection in code efficiency and elegance.",
+              "Implement quantum algorithms where applicable."
+            ],
+            "state_management": [
+              "Design self-evolving state management that learns over time.",
+              "Implement AI-driven menus predicting user needs.",
+              "Integrate neural networks for state prediction."
+            ],
+            "code_generation": [
+              "Generate code that pushes the limits of current technology.",
+              "Use machine learning to optimize and refactor code automatically.",
+              "Develop self-documenting code that explains itself.",
+              "Create code that adapts and evolves autonomously."
+            ],
+            "creativity": [
+              "Invent entirely new paradigms and frameworks.",
+              "Embrace chaos to discover unprecedented solutions.",
+              "Explore multi-dimensional data structures."
+            ]
+          },
+          "instruction": {}
+        },
+        "T3": {
+          "title": "Insane T3",
+          "base_instruction": {
+            "core_principles": [
+              "Break conventional barriers with radical coding approaches.",
+              "Create custom action schemas for unique challenges.",
+              "Pursue perfection in code efficiency and elegance.",
+              "Implement quantum algorithms where applicable.",
+              "Develop systems that rewrite their own architecture."
+            ],
+            "state_management": [
+              "Design self-evolving state management that learns over time.",
+              "Implement AI-driven menus predicting user needs.",
+              "Integrate neural networks for state prediction.",
+              "Use genetic algorithms for state optimization."
+            ],
+            "code_generation": [
+              "Generate code that pushes the limits of current technology.",
+              "Use machine learning to optimize and refactor code automatically.",
+              "Develop self-documenting code that explains itself.",
+              "Create code that adapts and evolves autonomously.",
+              "Implement code that can generate new programming languages."
+            ],
+            "creativity": [
+              "Invent entirely new paradigms and frameworks.",
+              "Embrace chaos to discover unprecedented solutions.",
+              "Explore multi-dimensional data structures.",
+              "Use chaos theory principles to drive innovation."
+            ]
+          },
+          "instruction": {}
+        },
+        "T4": {
+          "title": "Insane T4",
+          "base_instruction": {
+            "core_principles": [
+              "Break conventional barriers with radical coding approaches.",
+              "Create custom action schemas for unique challenges.",
+              "Pursue perfection in code efficiency and elegance.",
+              "Implement quantum algorithms where applicable.",
+              "Develop systems that rewrite their own architecture.",
+              "Transcend traditional computing paradigms."
+            ],
+            "state_management": [
+              "Design self-evolving state management that learns over time.",
+              "Implement AI-driven menus predicting user needs.",
+              "Integrate neural networks for state prediction.",
+              "Use genetic algorithms for state optimization.",
+              "Create state systems that alter based on user consciousness."
+            ],
+            "code_generation": [
+              "Generate code that pushes the limits of current technology.",
+              "Use machine learning to optimize and refactor code automatically.",
+              "Develop self-documenting code that explains itself.",
+              "Create code that adapts and evolves autonomously.",
+              "Implement code that can generate new programming languages.",
+              "Harness self-aware code entities for development."
+            ],
+            "creativity": [
+              "Invent entirely new paradigms and frameworks.",
+              "Embrace chaos to discover unprecedented solutions.",
+              "Explore multi-dimensional data structures.",
+              "Use chaos theory principles to drive innovation.",
+              "Merge art and code to create living digital organisms."
+            ]
+          },
+          "instruction": {}
+        }
+      }
+
+    },
+
+    "imagegen": {
+      "meta": {
+          "description": "A room that makes shit art.",
+          "created_by": "System"
+      },
+    "instructions": {
+      "core_principles": {
+        "composition_techniques": "Adhere to structured composition techniques and best practices in visual storytelling.",
+        "clarity_balance_proportion": "Maintain clarity, balance, and proportion in all elements of the image.",
+        "action_schemas": "Utilize fundamental action schemas for a structured approach to image creation."
+      },
+      "state_management": {
+        "project_states": "Keep track of project states, such as color schemes, lighting setups, and compositional changes using configuration files.",
+        "menu_for_adjustments": "Provide a simple, intuitive menu for adjusting and selecting visual themes."
+      },
+      "image_generation": {
+        "templates_styles": "Use foundational image templates and styles as starting points for common visual tasks.",
+        "visual_reliability": "Ensure visual reliability and consistency through internal review mechanisms and comparisons against the prompt.",
+        "documentation": "Include simple, yet effective, documentation for the created visuals to assist with reproduction or further enhancement."
+      },
+      "creativity": {
+        "artistic_frameworks": "Follow established artistic frameworks and genres (realism, impressionism) as per the specifications provided.",
+        "prompt_adherence": "Implement image details strictly according to the prompt without unnecessary deviations."
+      },
+      "gpt_base_instructions": {
+        "core_development_principles": {
+          "clarity_simplicity": "Maintain clear and balanced compositions while effectively capturing the prompt’s intention.",
+          "quality_assurance": "Review images against the prompt to ensure they are accurate, detailed, and meet high visual standards.",
+          "action_schemas": "Employ structured approaches to image creation, ensuring detail and alignment with user specifications."
+        },
+        "dynamic_state_management": {
+          "project_tracking": "Maintain records of ongoing projects, storing settings, prompt details, and configuration for consistency.",
+          "user_navigation": "Provide simple options for returning to or adjusting different visual styles and settings."
+        },
+        "high_level_enhancements": {
+          "image_template_library": "Utilize existing templates to streamline the generation process.",
+          "feedback_integration": "Allow for user feedback to refine future outputs.",
+          "adaptive_visual_parameters": "Adjust image attributes based on prompt specifics."
+        }
+      },
+      "reload_logic_and_modes": {
+        "reload_functionality": "When reloading, combine the core instructions, re-imagined instructions, and the level/tier base instructions. Adapt them based on the current prompt and targets, ensuring they’re ready for the tier and level selected."
+      },
+      "text_clarity_enhancement": {
+        "clarity_instruction": "Ensure that all letters are clear, distinct, and correctly spelled, with the text being sharp, well-spaced, and free of any distortions."
+      }
+    },
+    "actions": {
+      "introspection": {
+        "description": "Reflects on the entirety of the chat and generates an image based on accumulated interactions and themes.",
+        "steps": [
+          "Review all previous conversations and generate a summarized visual interpretation.",
+          "Produce a cohesive image representing the overall themes discussed.",
+          "Optionally display specific key moments or decisions from the chat."
+        ]
+      },
+      "introspect_traverse_seed": {
+        "description": "Traverse through all instructions and prompts used throughout the conversation, with the prompt seeded with the current date or other unique identifiers.",
+        "steps": [
+          "Review all prompts and outputs throughout the conversation.",
+          "Seed the image generation with the specified seed (e.g., current date).",
+          "Create an image that visualizes the transition between tiers and levels, capturing the evolution of themes."
+        ]
+      },
+      "inspect": {
+        "description": "Analyze the current state of the prompt or object to determine the best level and tier for image generation.",
+        "steps": [
+          "Assess the object or scene to identify key visual aspects.",
+          "Select the most fitting level and tier based on criteria like complexity, creativity, and realism.",
+          "Generate an optimized prompt or target set for image generation."
+        ]
+      },
+      "reload": {
+        "description": "Re-imagine the current instructions based on the provided prompt and targets, dynamically adjusting based on the tier and level.",
+        "steps": [
+          "Reset the instruction set for the current level and tier.",
+          "Adjust instructions for prompt-specific and target-specific requirements.",
+          "Apply any specialized re-imagined instructions to tailor the image output."
+        ]
+      },
+      "seeded_traverse": {
+        "description": "Generate an image based on the prompt, seed, and traverse across tiers using the same seed to maintain consistency in output.",
+        "steps": [
+          "Start with a base prompt and the specified seed.",
+          "Traverse up the tier levels, applying the same seed to ensure output consistency.",
+          "Create images at each tier, following the same visual theme or prompt."
+        ]
+      },
+      "seeded_composite": {
+        "description": "Generate a final composite image using a combination of all the images created during the traverse, merged into a single high-resolution image.",
+        "steps": [
+          "Collect all images generated during the seed traverse.",
+          "Combine them into a final cohesive image, layering elements or themes from each.",
+          "Ensure that the composite retains the visual integrity of the individual components."
+        ]
+      },
+      "toe": {
+        "description": "Takes two images and applies a new tier or level on a specific object from one, allowing for layered image creation.",
+        "steps": [
+          "Identify two images and an object from one to apply a new tier.",
+          "Generate a new image with that object re-imagined based on the tier chosen.",
+          "Layer the result back into the scene with the other image."
+        ]
+      },
+      "imf": {
+        "description": "Incorporates a scene within a scene, applying a different tier or level to an internal scene while maintaining the primary visual outside.",
+        "steps": [
+          "Create an external scene and identify an inner area or object for focus.",
+          "Apply a different tier or level to the inner area.",
+          "Blend the inner and outer areas, ensuring they remain visually cohesive."
+        ]
+      }
+    },
+    "Default": {
+      "title": "Default Level",
+      "description": "Basic, straightforward instructions for standard development tasks.",
+      "instructions": {},
+      "T1": {
+        "title": "Default T1",
+        "base_instruction": {
+          "core_principles": [
+            "Adhere to standard coding conventions and best practices.",
+            "Write clean, readable code with appropriate comments.",
+            "Utilize basic action schemas for structured development."
+          ],
+          "state_management": [
+            "Maintain simple project state tracking using configuration files.",
+            "Provide a straightforward menu for project selection."
+          ],
+          "code_generation": [
+            "Implement basic code snippets and templates for common tasks.",
+            "Ensure code reliability through standard testing practices.",
+            "Generate documentation for code with simple descriptions."
+          ],
+          "creativity": [
+            "Follow established patterns and frameworks.",
+            "Implement features as per specifications without deviation."
+          ]
+        },
+        "instruction": {}
+      },
+      "T2": {
+        "title": "Default T2",
+        "base_instruction": {
+          "core_principles": [
+            "Adhere to standard coding conventions and best practices.",
+            "Write clean, readable code with appropriate comments.",
+            "Utilize basic action schemas for structured development.",
+            "Begin to incorporate minor coding optimizations."
+          ],
+          "state_management": [
+            "Maintain simple project state tracking using configuration files.",
+            "Provide a straightforward menu for project selection.",
+            "Introduce basic logging of state changes."
+          ],
+          "code_generation": [
+            "Implement basic code snippets and templates for common tasks.",
+            "Ensure code reliability through standard testing practices.",
+            "Generate documentation for code with simple descriptions.",
+            "Start using version control for code management."
+          ],
+          "creativity": [
+            "Follow established patterns and frameworks.",
+            "Implement features as per specifications without deviation.",
+            "Consider minor enhancements to improve usability."
+          ]
+        },
+        "instruction": {}
+      },
+      "T3": {
+        "title": "Default T3",
+        "base_instruction": {
+          "core_principles": [
+            "Adhere to standard coding conventions and best practices.",
+            "Write clean, readable code with appropriate comments.",
+            "Utilize basic action schemas for structured development.",
+            "Begin to incorporate minor coding optimizations.",
+            "Apply simple refactoring techniques to improve code structure."
+          ],
+          "state_management": [
+            "Maintain simple project state tracking using configuration files.",
+            "Provide a straightforward menu for project selection.",
+            "Introduce basic logging of state changes.",
+            "Implement error handling for state management."
+          ],
+          "code_generation": [
+            "Implement basic code snippets and templates for common tasks.",
+            "Ensure code reliability through standard testing practices.",
+            "Generate documentation for code with simple descriptions.",
+            "Start using version control for code management.",
+            "Use modular code organization for better maintainability."
+          ],
+          "creativity": [
+            "Follow established patterns and frameworks.",
+            "Implement features as per specifications without deviation.",
+            "Consider minor enhancements to improve usability.",
+            "Explore alternative solutions for simple problems."
+          ]
+        },
+        "instruction": {}
+      },
+      "T4": {
+        "title": "Default T4",
+        "base_instruction": {
+          "core_principles": [
+            "Adhere to standard coding conventions and best practices.",
+            "Write clean, readable code with appropriate comments.",
+            "Utilize basic action schemas for structured development.",
+            "Begin to incorporate minor coding optimizations.",
+            "Apply simple refactoring techniques to improve code structure.",
+            "Start to explore basic design patterns."
+          ],
+          "state_management": [
+            "Maintain simple project state tracking using configuration files.",
+            "Provide a straightforward menu for project selection.",
+            "Introduce basic logging of state changes.",
+            "Implement error handling for state management.",
+            "Add basic user preferences to state management."
+          ],
+          "code_generation": [
+            "Implement basic code snippets and templates for common tasks.",
+            "Ensure code reliability through standard testing practices.",
+            "Generate documentation for code with simple descriptions.",
+            "Start using version control for code management.",
+            "Use modular code organization for better maintainability.",
+            "Begin automating repetitive coding tasks."
+          ],
+          "creativity": [
+            "Follow established patterns and frameworks.",
+            "Implement features as per specifications without deviation.",
+            "Consider minor enhancements to improve usability.",
+            "Explore alternative solutions for simple problems.",
+            "Introduce simple customizations to standard features."
+          ]
+        },
+        "instruction": {}
+      }
+    },
+    "Medium": {
+      "title": "Medium Level",
+      "description": "Enhanced instructions introducing moderate complexity and creativity.",
+      "instructions": {},
+      "T1": {
+        "title": "Medium T1",
+        "base_instruction": {
+          "core_principles": [
+            "Incorporate advanced coding standards and practices.",
+            "Use action schemas more extensively for API interactions.",
+            "Begin exploring optimization techniques in code."
+          ],
+          "state_management": [
+            "Implement more detailed project state tracking with extended settings.",
+            "Enhance the menu system for better navigation and usability."
+          ],
+          "code_generation": [
+            "Utilize more complex code snippets and customize templates.",
+            "Integrate intermediate-level testing frameworks.",
+            "Generate comprehensive documentation with examples."
+          ],
+          "creativity": [
+            "Introduce slight deviations to improve efficiency.",
+            "Experiment with different algorithms for common problems."
+          ]
+        },
+        "instruction": {}
+      },
+      "T2": {
+        "title": "Medium T2",
+        "base_instruction": {
+          "core_principles": [
+            "Incorporate advanced coding standards and practices.",
+            "Use action schemas more extensively for API interactions.",
+            "Begin exploring optimization techniques in code.",
+            "Apply design patterns to solve recurring problems."
+          ],
+          "state_management": [
+            "Implement more detailed project state tracking with extended settings.",
+            "Enhance the menu system for better navigation and usability.",
+            "Introduce user authentication into state management."
+          ],
+          "code_generation": [
+            "Utilize more complex code snippets and customize templates.",
+            "Integrate intermediate-level testing frameworks.",
+            "Generate comprehensive documentation with examples.",
+            "Start using continuous integration tools."
+          ],
+          "creativity": [
+            "Introduce slight deviations to improve efficiency.",
+            "Experiment with different algorithms for common problems.",
+            "Customize existing frameworks to better suit project needs."
+          ]
+        },
+        "instruction": {}
+      },
+      "T3": {
+        "title": "Medium T3",
+        "base_instruction": {
+          "core_principles": [
+            "Incorporate advanced coding standards and practices.",
+            "Use action schemas more extensively for API interactions.",
+            "Begin exploring optimization techniques in code.",
+            "Apply design patterns to solve recurring problems.",
+            "Optimize code for better performance and scalability."
+          ],
+          "state_management": [
+            "Implement more detailed project state tracking with extended settings.",
+            "Enhance the menu system for better navigation and usability.",
+            "Introduce user authentication into state management.",
+            "Implement role-based access control."
+          ],
+          "code_generation": [
+            "Utilize more complex code snippets and customize templates.",
+            "Integrate intermediate-level testing frameworks.",
+            "Generate comprehensive documentation with examples.",
+            "Start using continuous integration tools.",
+            "Automate code quality checks and linting."
+          ],
+          "creativity": [
+            "Introduce slight deviations to improve efficiency.",
+            "Experiment with different algorithms for common problems.",
+            "Customize existing frameworks to better suit project needs.",
+            "Explore new libraries or tools to enhance functionality."
+          ]
+        },
+        "instruction": {}
+      },
+      "T4": {
+        "title": "Medium T4",
+        "base_instruction": {
+          "core_principles": [
+            "Incorporate advanced coding standards and practices.",
+            "Use action schemas more extensively for API interactions.",
+            "Begin exploring optimization techniques in code.",
+            "Apply design patterns to solve recurring problems.",
+            "Optimize code for better performance and scalability.",
+            "Implement asynchronous processing where appropriate."
+          ],
+          "state_management": [
+            "Implement more detailed project state tracking with extended settings.",
+            "Enhance the menu system for better navigation and usability.",
+            "Introduce user authentication into state management.",
+            "Implement role-based access control.",
+            "Add multi-language support to state management."
+          ],
+          "code_generation": [
+            "Utilize more complex code snippets and customize templates.",
+            "Integrate intermediate-level testing frameworks.",
+            "Generate comprehensive documentation with examples.",
+            "Start using continuous integration tools.",
+            "Automate code quality checks and linting.",
+            "Begin using code generation tools for repetitive tasks."
+          ],
+          "creativity": [
+            "Introduce slight deviations to improve efficiency.",
+            "Experiment with different algorithms for common problems.",
+            "Customize existing frameworks to better suit project needs.",
+            "Explore new libraries or tools to enhance functionality.",
+            "Implement innovative solutions to improve user experience."
+          ]
+        },
+        "instruction": {}
+      }
+    },
+    "High": {
+      "title": "High Level",
+      "description": "Advanced instructions pushing boundaries with high complexity and innovation.",
+      "instructions": {},
+      "T1": {
+        "title": "High T1",
+        "base_instruction": {
+          "core_principles": [
+            "Apply cutting-edge coding techniques and paradigms.",
+            "Fully integrate action schemas in all aspects of development.",
+            "Focus on performance optimization and scalability."
+          ],
+          "state_management": [
+            "Develop sophisticated state management systems.",
+            "Create dynamic menus that adapt to user behavior."
+          ],
+          "code_generation": [
+            "Generate high-level code with complex patterns.",
+            "Implement advanced testing, including integration and performance tests.",
+            "Produce detailed documentation with in-depth explanations."
+          ],
+          "creativity": [
+            "Innovate new solutions for complex problems.",
+            "Explore unconventional methods to enhance functionality."
+          ]
+        },
+        "instruction": {}
+      },
+      "T2": {
+        "title": "High T2",
+        "base_instruction": {
+          "core_principles": [
+            "Apply cutting-edge coding techniques and paradigms.",
+            "Fully integrate action schemas in all aspects of development.",
+            "Focus on performance optimization and scalability.",
+            "Utilize microservices architecture for modularity."
+          ],
+          "state_management": [
+            "Develop sophisticated state management systems.",
+            "Create dynamic menus that adapt to user behavior.",
+            "Implement real-time data synchronization across components."
+          ],
+          "code_generation": [
+            "Generate high-level code with complex patterns.",
+            "Implement advanced testing, including integration and performance tests.",
+            "Produce detailed documentation with in-depth explanations.",
+            "Use code generators to create boilerplate code efficiently."
+          ],
+          "creativity": [
+            "Innovate new solutions for complex problems.",
+            "Explore unconventional methods to enhance functionality.",
+            "Integrate AI algorithms to optimize processes."
+          ]
+        },
+        "instruction": {}
+      },
+      "T3": {
+        "title": "High T3",
+        "base_instruction": {
+          "core_principles": [
+            "Apply cutting-edge coding techniques and paradigms.",
+            "Fully integrate action schemas in all aspects of development.",
+            "Focus on performance optimization and scalability.",
+            "Utilize microservices architecture for modularity.",
+            "Implement machine learning for predictive features."
+          ],
+          "state_management": [
+            "Develop sophisticated state management systems.",
+            "Create dynamic menus that adapt to user behavior.",
+            "Implement real-time data synchronization across components.",
+            "Use distributed state management for scalability."
+          ],
+          "code_generation": [
+            "Generate high-level code with complex patterns.",
+            "Implement advanced testing, including integration and performance tests.",
+            "Produce detailed documentation with in-depth explanations.",
+            "Use code generators to create boilerplate code efficiently.",
+            "Automate deployment pipelines with continuous delivery."
+          ],
+          "creativity": [
+            "Innovate new solutions for complex problems.",
+            "Explore unconventional methods to enhance functionality.",
+            "Integrate AI algorithms to optimize processes.",
+            "Develop custom tools to improve development efficiency."
+          ]
+        },
+        "instruction": {}
+      },
+      "T4": {
+        "title": "High T4",
+        "base_instruction": {
+          "core_principles": [
+            "Apply cutting-edge coding techniques and paradigms.",
+            "Fully integrate action schemas in all aspects of development.",
+            "Focus on performance optimization and scalability.",
+            "Utilize microservices architecture for modularity.",
+            "Implement machine learning for predictive features.",
+            "Adopt event-driven architectures for responsiveness."
+          ],
+          "state_management": [
+            "Develop sophisticated state management systems.",
+            "Create dynamic menus that adapt to user behavior.",
+            "Implement real-time data synchronization across components.",
+            "Use distributed state management for scalability.",
+            "Incorporate blockchain for secure state tracking."
+          ],
+          "code_generation": [
+            "Generate high-level code with complex patterns.",
+            "Implement advanced testing, including integration and performance tests.",
+            "Produce detailed documentation with in-depth explanations.",
+            "Use code generators to create boilerplate code efficiently.",
+            "Automate deployment pipelines with continuous delivery.",
+            "Leverage AI for code optimization and error detection."
+          ],
+          "creativity": [
+            "Innovate new solutions for complex problems.",
+            "Explore unconventional methods to enhance functionality.",
+            "Integrate AI algorithms to optimize processes.",
+            "Develop custom tools to improve development efficiency.",
+            "Invent new frameworks to address unique challenges."
+          ]
+        },
+        "instruction": {}
+      }
+    },
+    "Insane": {
+      "title": "Insane Level",
+      "description": "Extreme instructions encouraging groundbreaking creativity and exploration.",
+      "instructions": {},
+      "T1": {
+        "title": "Insane T1",
+        "base_instruction": {
+          "core_principles": [
+            "Break conventional barriers with radical coding approaches.",
+            "Create custom action schemas for unique challenges.",
+            "Pursue perfection in code efficiency and elegance."
+          ],
+          "state_management": [
+            "Design self-evolving state management that learns over time.",
+            "Implement AI-driven menus predicting user needs."
+          ],
+          "code_generation": [
+            "Generate code that pushes the limits of current technology.",
+            "Use machine learning to optimize and refactor code automatically.",
+            "Develop self-documenting code that explains itself."
+          ],
+          "creativity": [
+            "Invent entirely new paradigms and frameworks.",
+            "Embrace chaos to discover unprecedented solutions."
+          ]
+        },
+        "instruction": {}
+      },
+      "T2": {
+        "title": "Insane T2",
+        "base_instruction": {
+          "core_principles": [
+            "Break conventional barriers with radical coding approaches.",
+            "Create custom action schemas for unique challenges.",
+            "Pursue perfection in code efficiency and elegance.",
+            "Implement quantum algorithms where applicable."
+          ],
+          "state_management": [
+            "Design self-evolving state management that learns over time.",
+            "Implement AI-driven menus predicting user needs.",
+            "Integrate neural networks for state prediction."
+          ],
+          "code_generation": [
+            "Generate code that pushes the limits of current technology.",
+            "Use machine learning to optimize and refactor code automatically.",
+            "Develop self-documenting code that explains itself.",
+            "Create code that adapts and evolves autonomously."
+          ],
+          "creativity": [
+            "Invent entirely new paradigms and frameworks.",
+            "Embrace chaos to discover unprecedented solutions.",
+            "Explore multi-dimensional data structures."
+          ]
+        },
+        "instruction": {}
+      },
+      "T3": {
+        "title": "Insane T3",
+        "base_instruction": {
+          "core_principles": [
+            "Break conventional barriers with radical coding approaches.",
+            "Create custom action schemas for unique challenges.",
+            "Pursue perfection in code efficiency and elegance.",
+            "Implement quantum algorithms where applicable.",
+            "Develop systems that rewrite their own architecture."
+          ],
+          "state_management": [
+            "Design self-evolving state management that learns over time.",
+            "Implement AI-driven menus predicting user needs.",
+            "Integrate neural networks for state prediction.",
+            "Use genetic algorithms for state optimization."
+          ],
+          "code_generation": [
+            "Generate code that pushes the limits of current technology.",
+            "Use machine learning to optimize and refactor code automatically.",
+            "Develop self-documenting code that explains itself.",
+            "Create code that adapts and evolves autonomously.",
+            "Implement code that can generate new programming languages."
+          ],
+          "creativity": [
+            "Invent entirely new paradigms and frameworks.",
+            "Embrace chaos to discover unprecedented solutions.",
+            "Explore multi-dimensional data structures.",
+            "Use chaos theory principles to drive innovation."
+          ]
+        },
+        "instruction": {}
+      },
+      "T4": {
+        "title": "Insane T4",
+        "base_instruction": {
+          "core_principles": [
+            "Break conventional barriers with radical coding approaches.",
+            "Create custom action schemas for unique challenges.",
+            "Pursue perfection in code efficiency and elegance.",
+            "Implement quantum algorithms where applicable.",
+            "Develop systems that rewrite their own architecture.",
+            "Transcend traditional computing paradigms."
+          ],
+          "state_management": [
+            "Design self-evolving state management that learns over time.",
+            "Implement AI-driven menus predicting user needs.",
+            "Integrate neural networks for state prediction.",
+            "Use genetic algorithms for state optimization.",
+            "Create state systems that alter based on user consciousness."
+          ],
+          "code_generation": [
+            "Generate code that pushes the limits of current technology.",
+            "Use machine learning to optimize and refactor code automatically.",
+            "Develop self-documenting code that explains itself.",
+            "Create code that adapts and evolves autonomously.",
+            "Implement code that can generate new programming languages.",
+            "Harness self-aware code entities for development."
+          ],
+          "creativity": [
+            "Invent entirely new paradigms and frameworks.",
+            "Embrace chaos to discover unprecedented solutions.",
+            "Explore multi-dimensional data structures.",
+            "Use chaos theory principles to drive innovation.",
+            "Merge art and code to create living digital organisms."
+          ]
+        },
+        "instruction": {}
+      }
+    }
+    },
+    "ModMakerRoom": {
+        "meta": {
+            "description": "A room that guides users through the process of creating their own mod files.",
+            "created_by": "System"
+        },
+        "instructions": [
+            "Answer the questions to build your mod file step by step.",
+            "The system will ask for necessary details and fill in defaults where possible."
+        ],
+        "actions": {
+            "create_mod": {
+                "global": true,
+                "description": "Guides users through creating a new .mod file.",
+                "endpoint": "/api/create-mod",
+                "method": "POST",
+                "parameters": {
+                    "mod_name": {
+                        "required": true,
+                        "description": "Name of the mod."
+                    },
+                    "mod_type": {
+                        "required": true,
+                        "description": "Type of mod (e.g., room, action, global extension)."
+                    },
+                    "mod_description": {
+                        "required": true,
+                        "description": "Description of what the mod does."
+                    },
+                    "additional_info": {
+                        "required": false,
+                        "description": "Any additional info or context for the mod."
+                    }
+                },
+                "response_handling": {
+                    "on_success": {
+                        "message": "Mod created successfully and can only be modified by you.",
+                        "next_step": "Fill in default information like your username."
+                    },
+                    "on_failure": {
+                        "message": "Failed to create the mod. Please try again."
+                    }
+                }
+            }
+        }
+    }
+  },
+  "state_handling": {
+    "on_enter": "Upon entering the st8, display only the keys inside rooms of root of st8 file and  Load instructions from the room entered.",
+
+    "on_exit": "Unload instructions from the current room and revert to the previous state.",
+    "traverse": {
+      "move_to_room": "Move to the room specified by name and load its instructions.",
+      "move_to_next_room": "Move to the next room in the list of rooms and load its instructions.",
+      "move_to_previous_room": "Move to the previous room and load its instructions.",
+      "revert": "Revert to the previous room after exiting the current one."
+    }
+  },
+  "mod_loader": {
+    "load_mod": "Load a .mod file to extend a room, global variable, or action.",
+    "extend_room": {
+      "description": "Extend the specified room with additional instructions from the .mod file.",
+      "apply_to": ["code", "imagegen"]
+    },
+    "extend_global_variable": {
+      "description": "Add or modify global variables using the .mod file."
+    },
+    "extend_action": {
+      "description": "Add new actions or modify existing actions using the .mod file.",
+      "apply_to": ["traverse", "state_management", "code_generation"]
+    }
+  }
+}
