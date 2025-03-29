@@ -1,0 +1,15 @@
+{
+  /**
+  * This is an example .st8 file used by the statemind system.
+  * It holds the current state of the system in JSON-like format.
+  * A state is a collection of keys like 'rooms', 'state_handling', 'mod_loader', which should be respected at top-level only on load.
+  * Each key is treated with structural context and it usually points to a complex instruction set to be executed.
+  * Therefore, the .st8 file can be thought of as the real-time thematic map of the system, experimental states, or modular loadable building blocks.
+  */
+  "rooms": {
+    "exampleRoom": {
+      "meta": { "description": "This is a test room fill containing metadata." },
+      "instructions": { "note": "This section would contain room-specific instructions." }
+    }
+  }
+}
