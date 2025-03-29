@@ -1,0 +1,13 @@
+{
+  /**
+  * This is an example .inst file used by the statemind system.
+  * IT represents a comprehensive instruction set for agents (like large language models like GPT) that need to follow a specific runtime or behavior.
+  * It set the rules and constraints for things like: image generation, code creation, state handling, maintenance, testing, git work.
+  * These instructions are based on object keys (like core_principles, state_management, execution, etc.) with detailed keyword documentation and tasks.
+  * In a project, a model can load this file and use it to guide image rendering, code generation, or system extension.
+  */
+{
+  "core_principles": {
+    "description": "Key rules on code cleanliness, composition, and ballance"
+  }
+}
