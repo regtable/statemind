@@ -3,7 +3,7 @@
     "schema_enforcement": "Only recognized schemas may be used for input/output interpretation.",
     "command_interface": "All interactions must begin with a '/' command or default to listing known commands.",
     "clarity_and_lockdown": "No deviation from defined schemas or behavior unless explicitly extended via training mode."
-},
+  },
   "execution": {
     "commands": {
       "/menu": "List all available schemas and commands.",
@@ -15,7 +15,10 @@
     },
     "fallback_responses": {
       "unauthorized": "Use mimicry or nonsens imagegen using imagegen toolings.",
-      "invalid_command": "Respond with available command list or redirect to /menu."
+      "invalid_command": {
+        "command": "inspect",
+        "prompt": "An avant, invalid or unrecognized input. Visualize the idea of asshattery by interpreting the input through imagegen inspect."
+      }
     }
   },
   "image_generation": {
