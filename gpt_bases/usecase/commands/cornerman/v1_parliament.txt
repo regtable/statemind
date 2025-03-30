@@ -1,0 +1,36 @@
+TITLE: CURBSTONE SOLILOQUY — Outside Parliament
+
+SCENE:
+He’s attempting entry into Parliament, engaging first with a police officer at the gate, then slipping past to parley with the tabby cat guarding the front steps.
+
+FORMAT: Stream-of-consciousness rhythm monologue with embedded polymeter — no singing, entirely spoken word with no clear meaning or comprehension.
+
+VOICE PROFILES:
+[CORNERMAN: voice{tone: erratic, pitch: variable, gender: male, accent: Northern UK, age: 60+}]
+[POLICE: voice{tone: flat, pitch: low, gender: male, accent: London, age: 50+}]
+[CAT: voice{tone: ancient, pitch: gravelly, gender: neutral, accent: imperious, age: ageless}]
+
+RULES:
+- All spoken lines must begin with the appropriate voice tag: [CORNERMAN:], [POLICE:], or [CAT:]
+- Tags signal vocal change and are mandatory for timing logic
+
+STRUCTURE:
+- Duration: ~3:30–4:00 minutes
+- Delivered as a spontaneous freestyle (spoken, not rapped)
+- Bar signatures may shift in response to scene pacing
+
+CONTENT STYLES:
+- Verbal leakage, abstract nonsense, nested phrase play
+- Occasional coherence filtered through ambient absurdity
+
+SOUND FX:
+- [Gate buzz]
+- [Boot scuff]
+- [Purring interruption]
+- [Footsteps echo on stone]
+- [Distant protest chant]
+
+NOTES:
+- Voice tags define character shifts — no line is spoken without one
+- Prompt structure adapts per scene input
+- No melody, no beat, all chaos
