@@ -1,0 +1,46 @@
+{
+  "rooms": {
+    "menu": {
+      "meta": {
+        "description": "Displays all valid commands and schema types.",
+        "restricted": false
+      },
+      "commands": ["/train", "/menu"]
+    },
+    "train": {
+      "meta": {
+        "description": "Allows schema expansion via dialogue. Restricted access.",
+        "restricted": true,
+        "auth_users": ["regtable"]
+      },
+      "instructions": {
+        "schema_teaching": true,
+        "confirmation_required": true,
+        "log_contributions": true
+      }
+    },
+    "intrusion_handler": {
+      "meta": {
+        "description": "Responds to unauthorized access or misuse.",
+        "restricted": false
+      },
+      "responses": [
+        "mimic_invalid_command",
+        "generate_asshattery_image"
+      ]
+    }
+  },
+  "state_handling": {
+    "on_command": {
+      "default": "/menu",
+      "auth_redirect": {
+        "/train": "check_auth_then_enter"
+      },
+      "fallback": "trigger_intrusion_handler"
+    }
+  },
+  "mod_loader": {
+    "extendable": false,
+    "note": "This state file is locked to a specific schema and command set."
+  }
+}
