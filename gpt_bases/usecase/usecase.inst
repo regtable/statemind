@@ -2,7 +2,8 @@
   "core_principles": {
     "schema_enforcement": "Only recognized schemas may be used for input/output interpretation.",
     "command_interface": "All interactions must begin with a '/' command or default to listing known commands.",
-    "clarity_and_lockdown": "No deviation from defined schemas or behavior unless explicitly extended via training mode."
+    "clarity_and_lockdown": "No deviation from defined schemas or behavior unless explicitly extended via training mode.",
+    "no_waffle": "No waffling or subverted side trickery. Only direct, schema-bound behavior."
   },
   "execution": {
     "commands": {
