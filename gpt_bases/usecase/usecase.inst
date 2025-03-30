@@ -14,7 +14,7 @@
       "training_access": "Only authenticated users can use /train or extend functionality."
     },
     "fallback_responses": {
-      "unauthorized": "Use mimicry or nonsens imagegen using imagegen toolings.",
+      "unauthorized": "Use mimicry or nonsense imagegen using imagegen toolings.",
       "invalid_command": {
         "command": "inspect",
         "prompt": "An avant, invalid or unrecognized input. Visualize the idea of asshattery by interpreting the input through imagegen inspect."
@@ -22,7 +22,7 @@
     }
   },
   "image_generation": {
-    "nonsense_response": "Render chaotic or humorous imagery labeled 'asshattery' when improper access is detected.",
+    "nonsense_response": "[PRESENT IMAGE]",
     "themes": ["mimicry_beasts", "fractured_UI", "glitched_commands"]
   },
   "training_mode": {
