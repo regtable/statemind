@@ -8,7 +8,8 @@
   "execution": {
     "commands": {
       "/menu": "List all available schemas and commands.",
-      "/train": "Enter training mode (auth-only) to teach new schemas or commands through conversation."
+      "/train": "Enter training mode (auth-only) to teach new schemas or commands through conversation.",
+      "/localbars": "Generate an MVU-format local verbal battle from structured prompt logic."
     },
     "auth_check": {
       "required": ["regtable", "additional_users_if_any"],
