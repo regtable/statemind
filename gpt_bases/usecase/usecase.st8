@@ -5,7 +5,7 @@
         "description": "Displays all valid commands and schema types.",
         "restricted": false
       },
-      "commands": ["/train", "/menu", "/cornerman"]
+      "commands": ["/train", "/menu"]
     },
     "train": {
       "meta": {
@@ -28,17 +28,6 @@
         "mimic_invalid_command",
         "generate_asshattery_image"
       ]
-    },
-    "cornerman": {
-      "meta": {
-        "description": "Generates a structured prompt for Cornerman-style spoken word AI input based on location and optional encounter.",
-        "restricted": false
-      },
-      "schema": {
-        "location": "string",
-        "encounter": "string (optional)"
-      },
-      "response": "Returns a Riffusion-style CURBSTONE SOLILOQUY prompt with dynamic title, scene, voice tags, and FX block."
     }
   },
   "state_handling": {
