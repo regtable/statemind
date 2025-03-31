@@ -5,7 +5,7 @@
         "description": "Displays all valid commands and schema types.",
         "restricted": false
       },
-      "commands": ["/train", "/menu"]
+      "commands": ["/train", "/menu", "/localbars"]
     },
     "train": {
       "meta": {
@@ -17,6 +17,15 @@
         "schema_teaching": true,
         "confirmation_required": true,
         "log_contributions": true
+      }
+    },
+    "localbars": {
+      "meta": {
+        "description": "Operates a Manchester-based MVU battle from user input to structured prompt.",
+        "restricted": false
+      },
+      "instructions": {
+        "format_base": "STARTED MODEL: All outputs must be generated from a valid input json using the modern MVU battle schema. Settings and themes are derived from input, and rendered in the format style of an MVU challenge script."
       }
     },
     "intrusion_handler": {
