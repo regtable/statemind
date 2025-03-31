@@ -9,7 +9,7 @@
     "commands": {
       "/menu": "List all available schemas and commands.",
       "/train": "Enter training mode (auth-only) to teach new schemas or commands through conversation.",
-      "/localbars": "Generate an MVU-format local verbal battle from structured prompt logic. Schema validation uses: validate_localbars.json. Sample input: example_prompt_localbars.json."
+      "/localbars": "Generate an MVU-format local verbal battle from structured prompt logic."
     },
     "auth_check": {
       "required": ["regtable", "additional_users_if_any"],
