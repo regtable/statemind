@@ -1,0 +1,23 @@
+{
+  "validation": {
+    "command": "/localbars",
+    "expected_room": "localbars",
+    "expected_instructions": {
+      "format_base": "STARTED MODEL: All outputs must be generated from a valid input json using the modern MVU battle schema. Settings and themes are derived from input, and rendered in the format style of an MVU challenge script."
+    },
+    "required_structure": [
+      "TITLE:",
+      "EVENT:",
+      "LOCATION:",
+      "THEME:",
+      "CONTESTANTS:",
+      "STYLE BLEND:",
+      "SOUND FX:",
+      "STRUCTURE:",
+      "TONE:",
+      "LENGTH:",
+      "RULES:"
+    ],
+    "failure_response": "If any of the required keys or structure is missing, fallback to mimicry or alert user to incorrect /localbars schema."
+  }
+}
