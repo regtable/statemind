@@ -25,7 +25,7 @@
         "restricted": false
       },
       "instructions": {
-        "format_base": "STARTED MODEL: All outputs must be generated from a trained JSON.\nValidation schema: gpt_bases/usecase/localbars_training/validate_localbars.json\nSample prompt: gpt_bases/usecase/localbars_training/example_prompt_localbars.json\nSample output: gpt_bases/usecase/localbars_training/example_output_1.json"
+        "format_base": "STARTED MODEL: All outputs must be generated from a valid input json using the modern MVU battle schema. Settings and themes are derived from input, and rendered in the format style of an MVU challenge script."
       }
     },
     "intrusion_handler": {
