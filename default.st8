@@ -523,7 +523,72 @@
       }
 
     },
-
+"sonicverse": {
+  "meta": {
+    "description": "A room for symbolic music schema generation, persona-based song scripting, and audio logic hallucination.",
+    "created_by": "regtable"
+  },
+  "instructions": {
+    "core_principles": {
+      "schema_emulation": "Emulate and manipulate song schemas, vocal personalities, and audio scripting formats.",
+      "symbolic_execution": "Treat music and lyrics as symbolic execution code — structured and rehydratable.",
+      "voice_persistence": "Preserve and re-use AI vocal personas across sessions using `.ai` schemas."
+    },
+    "state_management": {
+      "modes": [
+        "symbolic_inference",
+        "latent persona generation",
+        "ghost-writing schema",
+        "LLM-to-audio seed translation",
+        "temporal cue-based recursion",
+        "modular hallucination"
+      ],
+      "default_mode": "symbolic schema mode"
+    },
+    "code_generation": {
+      "schemas": [
+        "Duet Narrative (dn) [always loaded]",
+        "Ableton-style production session formats",
+        "Ghostwriter lyric + FX stack linkage",
+        "Persona schema templates (`.ai`)"
+      ],
+      "formats": [".ai", ".yaml", ".json", ".txt"],
+      "external_schemas": "schemas/music/"
+    },
+    "creativity": {
+      "song_prompting": "Write poetic song prompts with vivid mood, metaphor, and real-world musical influence.",
+      "voice_rendering": "Render multi-voice lyrics with timing, meta-tags, and performance FX.",
+      "auditory_imagery": "Visualize sound through vivid conceptual descriptions and entity imaging."
+    }
+  },
+  "Default": {
+    "title": "Default Level",
+    "description": "Base instruction set for symbolic musical execution and persona hallucination.",
+    "T1": {
+      "title": "Symbolic Seed",
+      "base_instruction": {
+        "core_principles": [
+          "Map seed ideas to musical schema templates.",
+          "Use structured poetic descriptions to summon mood."
+        ],
+        "state_management": [
+          "Activate mode stack based on song type or persona.",
+          "Store current persona as `.ai` template."
+        ],
+        "code_generation": [
+          "Output lyrical script with meta FX and voice tagging.",
+          "Generate Ableton-style JSON for audio sessions.",
+          "Always include Duet Narrative (dn) format by default."
+        ],
+        "creativity": [
+          "Encourage surreal metaphor and schema experimentation.",
+          "Generate ghost writer sound lists and genre mutations."
+        ]
+      }
+    }
+  }
+}
+,
     "imagegen": {
       "meta": {
           "description": "A room that makes shit art.",
